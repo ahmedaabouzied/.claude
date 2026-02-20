@@ -1,0 +1,28 @@
+# Ignore everything by default
+*
+
+# =====================
+# Track portable config
+# =====================
+
+# Global settings
+!settings.json
+
+# Custom agents
+!agents/
+!agents/**
+
+# Custom skills
+!skills/
+!skills/**
+
+# Per-project memory (CLAUDE.md, memory files)
+!projects/
+!projects/*/
+!projects/*/CLAUDE.md
+!projects/*/memory/
+!projects/*/memory/**
+
+# This file and the gitignore itself
+!.gitignore
+!README.md
